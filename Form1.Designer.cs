@@ -46,7 +46,6 @@ namespace DBFrist
             this.label7 = new System.Windows.Forms.Label();
             this.unitPrice = new System.Windows.Forms.TextBox();
             this.Quntity = new System.Windows.Forms.TextBox();
-            this.linkLabel3 = new System.Windows.Forms.LinkLabel();
             this.SuspendLayout();
             // 
             // label1
@@ -221,25 +220,12 @@ namespace DBFrist
             this.Quntity.Size = new System.Drawing.Size(143, 22);
             this.Quntity.TabIndex = 16;
             // 
-            // linkLabel3
-            // 
-            this.linkLabel3.AutoSize = true;
-            this.linkLabel3.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.linkLabel3.Font = new System.Drawing.Font("Matura MT Script Capitals", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.linkLabel3.Location = new System.Drawing.Point(1243, 462);
-            this.linkLabel3.Name = "linkLabel3";
-            this.linkLabel3.Size = new System.Drawing.Size(146, 19);
-            this.linkLabel3.TabIndex = 17;
-            this.linkLabel3.TabStop = true;
-            this.linkLabel3.Text = "Employee Full Data";
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.ClientSize = new System.Drawing.Size(1482, 553);
-            this.Controls.Add(this.linkLabel3);
             this.Controls.Add(this.Quntity);
             this.Controls.Add(this.unitPrice);
             this.Controls.Add(this.listBoxpro);
@@ -285,7 +271,6 @@ namespace DBFrist
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.TextBox unitPrice;
         private System.Windows.Forms.TextBox Quntity;
-        private System.Windows.Forms.LinkLabel linkLabel3;
     }
 }
 

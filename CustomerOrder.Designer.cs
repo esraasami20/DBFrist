@@ -68,6 +68,7 @@ namespace DBFrist
             this.CusName.Size = new System.Drawing.Size(201, 32);
             this.CusName.TabIndex = 2;
             this.CusName.Text = "Customer Name";
+            this.CusName.Click += new System.EventHandler(this.CusName_Click);
             // 
             // addOrder
             // 

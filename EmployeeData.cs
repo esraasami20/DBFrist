@@ -26,6 +26,10 @@ namespace DBFrist
             postalcode.Text = db.Employees.Single(a => a.EmployeeID == _empid).PostalCode.ToString();
         }
         NORTHWNDEntities db = new NORTHWNDEntities();
-        
+
+        private void EmployeeData_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

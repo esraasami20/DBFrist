@@ -39,6 +39,7 @@ namespace DBFrist
 
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
+            
             CustomerOrder customerOrder = new CustomerOrder(listBoxCus.SelectedValue.ToString());
             customerOrder.ShowDialog();
         }
@@ -85,6 +86,7 @@ namespace DBFrist
         {
             //for any order ?=> last order for last customer, get order id
             //add order details(order id)
+            
             var lastOrderIDForCurrentCustomer = db.Customers
                                                    .Single(a=>a.CustomerID==listBoxCus.SelectedValue.ToString())
                                                    .Orders.LastOrDefault().OrderID;

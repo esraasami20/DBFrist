@@ -184,6 +184,7 @@ namespace DBFrist
             this.Name = "EmployeeData";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "EmployeeData";
+            this.Load += new System.EventHandler(this.EmployeeData_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

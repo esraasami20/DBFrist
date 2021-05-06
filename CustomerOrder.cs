@@ -29,5 +29,9 @@ namespace DBFrist
         }
         NORTHWNDEntities db = new NORTHWNDEntities();
 
+        private void CusName_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
